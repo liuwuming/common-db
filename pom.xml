@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.zfec</groupId>
-	<artifactId>zfec-common-db</artifactId>
+	<artifactId>common-db</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>zfec-common-db</name>
+	<name>common-db</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
