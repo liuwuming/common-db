@@ -17,7 +17,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 @EnableTransactionManagement
 public class DBConfig {
 	@Bean(name = "zfdataSource")
-	@ConfigurationProperties(prefix = "zfec.datasource")
+	@ConfigurationProperties(prefix = "spring.datasource")
 	public DataSource zfdataSource() throws SQLException {
 		return new DruidDataSource();
 	}

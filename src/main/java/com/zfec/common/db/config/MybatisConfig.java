@@ -24,7 +24,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @AutoConfigureAfter({DBConfig.class})
-@MapperScan(basePackages = {"com.zfec.common.dao"})
+@MapperScan(basePackages = {"com.zfec.service.user.mapper"})
 public class MybatisConfig implements EnvironmentAware {
 	@Autowired
 	DataSource zfdataSource;

@@ -4,28 +4,28 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "zfec.redis")
+@ConfigurationProperties(prefix = "spring.redis")
 public class RedisProperties {
 	
 	/*
-		zfec.redis.nodes = 192.168.47.103:6381,192.168.47.103:6382,192.168.47.103:6383
-		zfec.redis.password = 123456
+		spring.redis.nodes = 192.168.47.103:6381,192.168.47.103:6382,192.168.47.103:6383
+		spring.redis.password = 123456
 		# 连接池最大连接数（使用负值表示没有限制）
-		zfec.redis.maxActive = 8  
+		spring.redis.maxActive = 8  
 		# 连接池最大阻塞等待时间（使用负值表示没有限制）
-		zfec.redis.maxWait = 4000  
+		spring.redis.maxWait = 4000  
 		# 连接池中的最大空闲连接
-		zfec.redis.maxIdle = 8  
+		spring.redis.maxIdle = 8  
 		# 连接池中的最小空闲连接
-		zfec.redis.minIdle = 0  
+		spring.redis.minIdle = 0  
 		# 连接超时时间（毫秒）
-		zfec.redis.timeout = 5000
+		spring.redis.timeout = 5000
 		# 是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个
-		zfec.redis.testOnBorrow = true
+		spring.redis.testOnBorrow = true
 		# 执行命令超时时间
-		zfec.redis.soTimeout = 15000
+		spring.redis.soTimeout = 15000
 		# 重试次数
-		zfec.redis.maxAttempts = 5
+		spring.redis.maxAttempts = 5
 	 */
 	
 	String nodes;
